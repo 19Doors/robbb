@@ -11,7 +11,7 @@ public class Main
     public static void main(String[] args) throws LoginException
     {
 
-	DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault("OTE4MDkyNzk2NDA4MjMzOTk2.YbCOjA.h9QSKLMXOnopfRl1lxrSNWDeOcw")
+	DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault("Your Token")
                                                 .setMemberCachePolicy(MemberCachePolicy.ALL)
                                                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
                                                 .enableIntents(GatewayIntent.GUILD_MESSAGES)
